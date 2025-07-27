@@ -52,6 +52,14 @@
 ```bash
 sudo bash <(curl -sL https://raw.githubusercontent.com/QuantumLLC/QInstaller/main/Install.sh)
 ```
+**Or manually clone the repo**
+
+```bash
+git clone https://github.com/QuantumLLC/QInstaller
+cd QInstaller
+chmod +x Install.sh
+sudo ./Install.sh
+```
 
 ## Notes
 Must be run as root (sudo or root shell).
